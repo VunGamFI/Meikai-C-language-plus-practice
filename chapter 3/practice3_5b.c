@@ -42,15 +42,6 @@ void count_result(int result){
     }
 }
 
-int comfirm_retry(void){
-    int x;
-
-    printf("再来一次吗……(0)否 (1)是：");
-    scanf("%d", &x);
-
-    return x;
-}
-
 int main(void){
     int judge;
     int num;
